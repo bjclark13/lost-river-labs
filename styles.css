@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Open+SansRoboto&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    background-image: url('./images/puppies-header.jpg');
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > nav {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+button {
+    background-color: #7D4141;
+    padding: 12px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    max-width: 150px;
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    font-size: 1.4rem;
+}
+
+header > nav > a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.header-inner {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    z-index: 999;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.header-inner h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    line-height: 1;
+    font-weight: normal;
+}
+
+.header-inner h2 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+.social-bar>a {
+    padding: 8px;
+}
+
+.social-bar {
+    margin-top: 8px;
+}
+
+.social-bar>a>i {
+    font-size: 1.8rem;
+}
+
+.cover {
+    position: absolute;
+    background-color: #000;
+    opacity: .5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 12px;
+}
+
+a {
+    color: #7D4141;
+}
+
+main h3 {
+    font-size: 2.5rem;
+    color: #7D4141;
+    font-weight: bolder;
+}
+
+nav p {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: right;
+    font-style: italic;
+    padding-right: 8px;
+}
+
+article section img {
+    height: 350px;
+    width: auto;
+}
+article section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+article>section p,
+article>section img {
+    padding: 1rem;
+    margin: 0;
+}
+
+article>section img {
+    border-radius: 50%;
+}
+
+section#pictures {
+    max-width: 100vw;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section#pictures>img {
+    height: 250px;
+    margin: 5px;
+    display: inline-block;
+}
+
+main {
+    max-width: 1400px;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    button {
+        max-width: 250px;
+    }
+
+    article section {
+        flex-direction: row;
+    }
+
+
+
+    section#pictures {
+        display: flex;
+        overflow: initial;
+        height: auto;
+        padding: 0
+    }
+
+    section#pictures>img {
+        height: 327px;
+    }
+
+    section#pictures>img:hover,
+    section#pictures>img:active
+    {
+        transform: scale(2);
+    }
+}
+
