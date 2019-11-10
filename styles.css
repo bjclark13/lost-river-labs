@@ -19,6 +19,10 @@ header {
     align-items: center;
 }
 
+main.sticky {
+    padding-top: calc( 100vh + 133px );
+}
+
 header.sticky {
     height: auto;
     background: none;
@@ -267,6 +271,10 @@ section#pictures>img {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.contact-ways .contact-inner a {
+    color: #fff;
 }
 
 .contact-ways ul {

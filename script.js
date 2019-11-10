@@ -7,11 +7,16 @@
 
     handleStickyScroll = () => {
         let $header = document.querySelector('header');
+        let $main = document.querySelector('main');
+
         window.addEventListener('scroll', () => {
             if ( window.scrollY > ( window.outerHeight  ) ) {
                $header.classList.add('sticky');
+               $main.classList.add('sticky');
+
             } else {
                $header.classList.remove('sticky');
+               $main.classList.remove('sticky');
             }
         })
     }
