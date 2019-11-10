@@ -313,7 +313,7 @@ main {
     }
 
     header {
-        background-position: 50% 125px;
+        background-position: 50% 100px;
     }
 
     header.sticky > nav {
