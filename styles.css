@@ -151,13 +151,13 @@ section#pictures {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    height: 250px;
+    height: 350px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 section#pictures>img {
-    height: 250px;
+    height: 350px;
     margin: 5px;
     display: inline-block;
 }
