@@ -29,27 +29,60 @@
 
             <a href="#about">About</a>
             <a href="#contact">Interest Form</a>
+            <a class="toggle" data-toggle=".contact-show">Contact</a>
             <a href="#pictures">Pictures</a>
 
             <p>7 Puppies Left!</p>
 
+            <div class="social-bar">
+                <a href="https://www.instagram.com/lostriverridge_labradors/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/lostriverridgelabradors">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
         </nav>
 
         <div class="header-inner">
             <h1>Lost River Ridge Labradors</h1>
             <h2> Chocolate Lab Breeder </h2>
-            <!--<i class="fab fa-facebook-messenger"></i>
-                <h2>
--->
-            <button data-toggle="contact-ways" class="contact-button"> Contact Us </button>
 
-            <div class="social-bar">
-                <a href="https://www.instagram.com/lostriverridge_labradors/"><i class="fab fa-instagram"></i>
+            <button data-toggle=".contact-show" class="contact-button toggle"> Contact Us </button>
+            <div class="contact-cover contact-show toggle hidden" data-toggle=".contact-show"></div>
 
-                </a>
-                <a href="https://www.facebook.com/lostriverridgelabradors"><i class="fab fa-facebook-f"></i>
+            <div class="contact-ways contact-show hidden">
+                <i class="fa-close fa fa-extra-large close-button toggle" data-toggle=".contact-show"></i>
+                <h3> Contact Us </h3>
 
-                    </i></a>
+                <div class="contact-inner">
+                    <p> Thank you for your interest in Lost River Ridge Labradors! </p>
+                    <p>We currently have puppies available. </p>
+
+                    <p>Please select one of the following
+                        options to contact us:</p>
+
+                    <ul>
+
+                        <li>
+                            <a href="https://m.me/lostriverridgelabradors" class="button button-alt">
+                                <i class="fab fa-facebook-messenger"></i>
+                                Facebook Messenger
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:grizzers4@aol.com?Subject=Interested in Puppies!" class="button button-alt">
+                                <i class="far fa-envelope"></i>
+                                Email
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="" class="button button-alt"> <i class="far fa-sticky-note"></i> Contact Form </a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </div>
 
