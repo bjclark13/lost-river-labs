@@ -273,8 +273,13 @@ section#pictures>img {
     text-align: center;
 }
 
-.contact-ways .contact-inner a {
+.contact-ways .contact-inner a.button {
     color: #fff;
+}
+
+.contact-ways .contact-inner a.link {
+    color: #7D4141;
+    text-decoration: underline;
 }
 
 .contact-ways ul {
