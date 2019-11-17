@@ -28,6 +28,8 @@
     }
 
     handleToggle = (event) => {
+        event.preventDeafult();
+
         let selector = event.target.dataset.toggle;
 
         document.querySelectorAll(selector).forEach( ($element) => {

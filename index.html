@@ -29,9 +29,8 @@
             <a class="toggle" data-toggle=".contact-show">Contact</a>
             <a href="#pictures">Pictures</a>
 
-            <p>7 Puppies Left!</p>
-
             <div class="social-bar">
+                <span class="puppy-count-alert">Only 6 Puppies Left!</span>
                 <a href="https://www.instagram.com/lostriverridge_labradors/">
                     <i class="fab fa-instagram"></i>
                 </a>
@@ -66,6 +65,7 @@
                                 Facebook Messenger
                             </a>
                         </li>
+
                         <li>
                             <a href="mailto:grizzers4@aol.com?Subject=Interested in Puppies!" class="button button-alt">
                                 <i class="far fa-envelope"></i>
@@ -73,10 +73,16 @@
                             </a>
                         </li>
 
-                        <!-- <li>
-                            <a href="" class="button button-alt"> <i class="far fa-sticky-note"></i> Contact Form </a>
-                        </li> -->
+                        <li>
+                            <a href="#" class="toggle button button-alt" data-toggle=".contact-form"> <i
+                                    class="far fa-sticky-note"></i> Contact Form </a>
+                        </li>
                     </ul>
+
+                    <div class="cognito hidden contact-form">
+                        <script src="https://services.cognitoforms.com/s/odhICsMEzUqS_DwN74Q9YA"></script>
+                        <script>Cognito.load("forms", { id: "1" });</script>
+                    </div>
                     <p> <a class="toggle link" data-toggle=".contact-show">Close</a> </p>
                 </div>
 

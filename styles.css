@@ -30,9 +30,17 @@ header.sticky {
     justify-content: center;
     position: fixed;
     background-color: #fff;
-    padding: 20px;
+    padding: 1rem;
     align-items: flex-start;
+}
 
+.sticky .puppy-count-alert {
+    color: #000000;
+}
+
+header .contact-button {
+    margin-top: .8rem;
+    margin-bottom: 0;
 }
 
 header.sticky a {
@@ -73,7 +81,7 @@ header.sticky > nav  {
 
 button, .button {
     background-color: #7D4141;
-    padding: 12px;
+    padding: .8rem;
     border-radius: 5px;
     text-transform: uppercase;
     margin: 1rem 0;
@@ -125,12 +133,21 @@ header a {
     text-decoration: none;
 }
 .social-bar>a {
-    padding: 8px;
+    padding: 0 8px;
+    vertical-align: middle;
+}
+
+.puppy-count-alert {
+    font-size: 1.3rem;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #fff;
 }
 
 .social-bar {
-    margin-top: 8px;
+    margin-top: 1rem;
     text-align: right;
+    font-size: 1.8rem;
 }
 
 .social-bar>a>i {
@@ -153,7 +170,7 @@ html, body {
 }
 
 html {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 a {
@@ -232,7 +249,8 @@ section#pictures>img {
     height: 100vh;
     background-color: #fff;
     color: #333;
-    z-index: 99
+    z-index: 99;
+    overflow: scroll;
 }
 
 .contact-cover {
@@ -302,7 +320,7 @@ main {
 
 @media only screen and (min-width: 768px) {
     html {
-        font-size: 14px;
+        font-size: 12px;
     }
     button {
         max-width: 250px;
@@ -334,11 +352,11 @@ main {
     section#pictures>img:hover,
     section#pictures>img:active
     {
-        transform: scale(2);
+        transform: scale(1.4);
     }
 
     .contact-ways {
-        max-height: 768px;
+        /* max-height: 768px; */
     }
 }
 
