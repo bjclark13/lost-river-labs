@@ -9,7 +9,6 @@
             let $header = document.querySelector('header');
             let $main = document.querySelector('main');
 
-            console.log($header.classList.contains('always-sticky'), 'always sticky<<<<');
             if (!$header.classList.contains('always-sticky')) {
                 window.addEventListener('scroll', () => {
                     if (window.scrollY > (window.outerHeight)) {
@@ -31,7 +30,6 @@
         }
 
         handleToggle = (event) => {
-            console.log(event);
             event.preventDefault();
 
             let selector = event.target.dataset.toggle;
