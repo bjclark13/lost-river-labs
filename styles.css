@@ -23,15 +23,24 @@ main.sticky {
     padding-top: calc( 100vh + 133px );
 }
 
+main.sticky.always-sticky {
+    padding-top: 100px;
+}
+
 header.sticky {
     height: auto;
     background: none;
-    border-bottom: 1px solid #333;
+    box-shadow: 0 1px 5px 0px #9a9a9a;
     justify-content: center;
     position: fixed;
     background-color: #fff;
     padding: 1rem;
     align-items: flex-start;
+    z-index: 1;
+}
+
+.cognito {
+    width: 100%
 }
 
 .sticky .puppy-count-alert {
@@ -181,6 +190,7 @@ main h3 {
     font-size: 2.5rem;
     color: #7D4141;
     font-weight: bolder;
+    text-transform: capitalize;
 }
 
 nav p {
@@ -203,7 +213,7 @@ article section {
     align-items: center;
 }
 
-article p {
+article p, main p {
     font-size: 1.5rem;
     line-height: 1.5;
 }
@@ -355,8 +365,8 @@ main {
         transform: scale(1.4);
     }
 
-    .contact-ways {
-        /* max-height: 768px; */
+    .hidden-lg {
+        display: none!important;
     }
 }
 
