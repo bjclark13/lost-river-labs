@@ -205,8 +205,13 @@ html {
     scroll-behavior: smooth;
 }
 
-a, .contact-inner a {
+a {
     color: #7D4141;
+}
+
+header .contact-inner a, header.sticky .contact-inner a {
+    color: #7D4141;
+    text-decoration: underline;
 }
 
 main h3 {
