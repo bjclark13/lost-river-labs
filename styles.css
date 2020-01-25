@@ -28,6 +28,17 @@ header {
         -ms-flex-align: center;
             align-items: center;
 }
+.row {
+    display: flex;
+}
+
+.row .img-banner {
+    height: 300px;
+}
+
+.row div {
+    padding: 1rem;
+}
 
 main.sticky {
     padding-top: calc( 100vh + 133px );
@@ -75,7 +86,9 @@ header.sticky h1 {
     font-size: 2rem;
 }
 
-header.sticky .header-inner h2 {
+header.sticky .header-inner h2,
+header.sticky .header-inner h3
+ {
     display: none;
 }
 
@@ -158,6 +171,11 @@ header > nav > a {
 .header-inner h2 {
     font-size: 2rem;
     font-weight: normal;
+}
+
+.header-inner h3 {
+    font-size: 1.8rem;
+    margin: 0;
 }
 
 header a {
