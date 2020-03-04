@@ -70,12 +70,15 @@ header.sticky {
 }
 
 .sticky .puppy-count-alert {
-    color: #000000;
+    color: hsl(0, 0%, 0%);
 }
+
+
 
 header .contact-button {
     margin-top: .8rem;
     margin-bottom: 0;
+    margin: .8rem auto 0 auto;
 }
 
 header.sticky a {
@@ -86,6 +89,9 @@ header.sticky h1 {
     font-size: 2rem;
 }
 
+header h1, header h2, header h3 {
+    text-align: center;
+}
 header.sticky .header-inner h2,
 header.sticky .header-inner h3
  {
@@ -251,7 +257,7 @@ nav p {
 
 article section img {
     height: 300px;
-    width: auto;
+    width: 300px;
 }
 article section {
     display: -webkit-box;
