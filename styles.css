@@ -300,7 +300,8 @@ article > section img {
     margin: 0;
 }
 
-article > section img, .circle {
+article > section img,
+.circle {
     border-radius: 50%;
 }
 
@@ -319,7 +320,8 @@ section#pictures {
     padding-right: 10px;
 }
 
-section#pictures > img, section#pictures > video {
+section#pictures > img,
+section#pictures > video {
     height: 350px;
     margin: 5px;
     display: inline-block;
@@ -442,11 +444,12 @@ footer img {
     padding: 1rem;
 }
 
-/* #females img {
+#females img {
     height: auto;
     width: 100%;
 }
 
+/*
 #females img.circle {
     width: 300px;
     height: 300px;
@@ -490,7 +493,8 @@ footer img {
         padding: 0;
     }
 
-    section#pictures > img, section#pictures > video {
+    section#pictures > img,
+    section#pictures > video {
         height: 300px;
     }
 
