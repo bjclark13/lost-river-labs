@@ -449,6 +449,11 @@ footer img {
     width: 100%;
 }
 
+#puppy-cam iframe {
+    width: 90vw;
+    height: 60vw;
+}
+
 /*
 #females img.circle {
     width: 300px;
