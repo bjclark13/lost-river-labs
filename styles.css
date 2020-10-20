@@ -450,8 +450,10 @@ footer img {
 }
 
 #puppy-cam iframe {
-    width: 90vw;
-    height: 60vw;
+    width: calc(100vw - 6rem);
+    max-width: 1328px;
+    height: calc(66vw - 4rem);
+    max-height: 885px;
 }
 
 /*
