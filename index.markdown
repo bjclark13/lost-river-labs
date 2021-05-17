@@ -4,7 +4,7 @@ layout: home
 ---
 
 <article id="coming-2021">
-<h3> <i class="fas fa-paw"></i> Expecting May 2021 </h3>
+<h3> <i class="fas fa-paw"></i> Expecting November 2021 </h3>
 <section class="row">
 <img src="images/puppies1.JPG" alt="Wigglebutts coming soon!" class="img-banner" />
 
