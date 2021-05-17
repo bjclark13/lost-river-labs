@@ -5,134 +5,19 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js">
 <!--<![endif]-->
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Lost River Ridge Labradors</title>
-    <meta name="description"
-        content="Lost River Ridge Labradors is a breeder of Chocolate Lab Puppies in Central Indiana">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta property="og:title" content="Lost River Ridge Labradors">
-    <meta property="og:description"
-        content="Lost River Ridge Labradors is a breeder of Chocolate Lab Puppies in Central Indiana">
-    <meta property="og:image" content="https://lostriverridgelabradors.com/puppies-header.jpg">
-    <meta property="og:url" content="https://lostriverridgelabradors.com">
-    <link rel="stylesheet" href="styles.css">
-</head>
-
+{% include head.html %}
 <body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <header>
-        <div aria-hidden="true" class="cover"></div>
+        {% include header-home.html %}
 
-        <nav>
-            <a href="#about">About</a>
-            <a href="./interested.html">Puppy Application</a>
-            <a class="toggle" data-toggle=".contact-show">Contact</a>
-            <a href="#pictures">Pictures</a>
-
-            <div class="social-bar">
-                <span class="puppy-count-alert"><a href="#coming-2021">Expecting May 2021!</a></span>
-                <a href="https://www.instagram.com/lostriverridge_labradors/">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.facebook.com/lostriverridgelabradors">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-
-                <a href="#puppy-cam">
-                    <i class="fas fa-video"></i>
-                </a>
-
-
-
-            </div>
-        </nav>
-
-        <div class="header-inner">
-            <h2> Welcome to </h2>
-
-            <h1>Lost River Ridge Labradors</h1>
-            <h2><a href="#puppy-cam">
-                    <a href="#puppy-cam"> Click here for a live feed of our litter!
-                    </a>
-            </h2>
-
-            <button data-toggle=".contact-show" class="contact-button toggle"> Contact Us </button>
-            <div class="contact-cover contact-show toggle hidden" data-toggle=".contact-show"></div>
-
-            <div class="contact-ways contact-show hidden">
-                <i class="fa-close fa fa-extra-large close-button toggle" data-toggle=".contact-show"></i>
-                <h3> Contact Us </h3>
-
-                <div class="contact-inner">
-                    <p class="not-contact"> Thank you for your interest in Lost River Ridge Labradors! </p>
-                    <!-- <p class="not-contact"><strong>We are currently taking applications for May 2020.</strong> If
-                        you are ready to pursue adopting one our our labs, please submit the <a
-                            href="./interested.html">interest form</a> to start the application process.</p> -->
-
-                    <p class="not-contact">Please select one of the following
-                        options to contact us:</p>
-                    <ul class="not-contact">
-                        <li>
-                            <a href="https://m.me/lostriverridgelabradors" class="button button-alt not-contact">
-                                <i class="fab fa-facebook-messenger"></i>
-                                Facebook Messenger
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="mailto:lostriverridgelabradors@gmail.com?Subject=Interested in Puppies!"
-                                class="button button-alt not-contact">
-                                <i class="far fa-envelope"></i>
-                                Email
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="tel:1-765-425-1286" class="button button-alt not-contact">
-                                <i class="fas fa-mobile"></i>
-
-                                Call Sandy Grizzell at 765-425-1286
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="toggle button button-alt" data-toggle=".contact-form, .not-contact"> <i
-                                    class="far fa-sticky-note"></i> Contact Form </a>
-                        </li>
-                    </ul>
-
-                    <div class="cognito hidden contact-form">
-                        <script src="https://services.cognitoforms.com/s/odhICsMEzUqS_DwN74Q9YA"></script>
-                        <script>Cognito.load("forms", { id: "1" });</script>
-                    </div>
-
-                    <p class="hidden contact-form"> <a class="toggle link"
-                            data-toggle=".contact-form, .not-contact">Back</a> </p>
-
-                    <p> <a class="toggle link" data-toggle=".contact-show">Close</a> </p>
-                </div>
-
-            </div>
-        </div>
-    </header>
     <main>
         {{content}}
     </main>
 
-    <footer>
-        <img height="250" src="./images/health_tested_parents.jpg"
-            alt="Our puppy parents are tested to ensure the puppies are healthy" />
-        <img height="250" src="./images/no_silver_labs.jpg" alt="Silver labs are not a breed" />
-    </footer>
+    {% include footer.html %}
 
-    <script src="./min/script-min.js" async defer></script>
-    <script src="https://kit.fontawesome.com/788312a2c1.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
