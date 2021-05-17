@@ -1,16 +1,16 @@
---
+---
 title: Home
 layout: default
---
+---
 
 <article id="coming-2021">
-    <h3> <i class="fas fa-paw"></i> Expecting May 2021 </h3>
+    <h3> <i class="fas fa-paw"></i> Expecting November 2021 </h3>
     <section class="row">
         <img src="images/puppies1.JPG" alt="Wigglebutts coming soon!" class="img-banner" />
 
         <div>
             <p>
-                We are expecting another litter due to arrive this May! </p>
+                We are expecting another litter due to arrive this November! </p>
 
             <p>
                 If you’re interested in an incredible companion for the entire family to share many years of
