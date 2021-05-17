@@ -10,7 +10,7 @@ layout: home
 
         <div>
             <p>
-                We are expecting another litter due to arrive this May! </p>
+                We are expecting another litter due to arrive this November! </p>
     
             <p>
                 If you’re interested in an incredible companion for the entire family to share many years of
