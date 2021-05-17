@@ -11,7 +11,7 @@ collections:
 email: lostriverridgelabradors@gmail.com
 description: Lost River Ridge Labradors is a breeder of Chocolate Lab Puppies in Central
   Indiana
-baseurl: ''
+baseurl: 
 url: https://lostriverridgelabradors.com
 theme: minima
 plugins:
