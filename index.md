@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: default
+layout: home
 ---
 
 <article id="coming-2021">
