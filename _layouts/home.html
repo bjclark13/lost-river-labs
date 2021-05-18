@@ -11,10 +11,39 @@
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        {% include header-home.html %}
+    {% include header-home.html %}
 
     <main>
-        {{content}}
+        {% for post in site.home_sections %}
+            <article id="{{post.url}}">
+                <h3> <i class="fas fa-paw"></i> {{post.title}}</h3>
+                <section>
+                    {{post.content}}
+                </section>
+            </article>
+
+            {{content}}
+        {% endfor %}
+
+        <section id="pictures">
+            {% for picture in page.pictures %}
+                <img src="{{picture}}" alt="Picture of puppies" />
+            {% endfor %}
+        </section>
+        
+    
+        <section id="puppy-cam">
+            <h3> <i class="fas fa-paw"></i> Puppy Cam </h3>
+        
+            <p>Enjoy a live feed of our newborn labs!</p>
+            <h4>Benelli and Weed </h4>
+            <iframe type="text/html" frameborder="0" src="//video.nest.com/embedded/live/KZNybTeBnx?autoplay=1"
+                allowfullscreen></iframe>
+            <h4>Mavey and Dre </h4>
+        
+            <iframe type="text/html" frameborder="0" src="//video.nest.com/embedded/live/xdPyPSY4Nk?autoplay=1"
+                allowfullscreen></iframe>
+        </section>
     </main>
 
     {% include footer.html %}

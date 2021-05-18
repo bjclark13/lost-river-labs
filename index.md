@@ -1,6 +1,29 @@
 ---
 title: Home
 layout: home
+pictures:
+  - images/20200721_181821.jpg
+  - images/144227.jpeg
+  - images/puppies15.jpg
+  - images/IMG_20191018_203001.jpg
+  - images/FB_IMG_1578790648427.jpg
+  - images/puppies3.JPG
+  - images/puppies10.JPG
+  - images/puppies1.JPG
+  - images/puppies16.jpg
+  - images/puppies13.jpg
+  - images/puppies14.jpg
+  - images/newpic1.jpg
+  - images/newpic2.jpg
+  - images/newpic3.jpg
+  - images/newpic4.jpg
+  - images/newpic5.jpg
+  - images/newpic6.jpg
+  - images/newpic7.jpg
+  - images/newpic8.jpg
+  - images/newpic9.jpg
+  - images/newpic10.jpg
+  - images/newpic11.jpg
 ---
 
 <article id="coming-2021">
@@ -20,59 +43,7 @@ layout: home
         </div>
 
     </section>
-</article>
 
-<article id="about">
-    <h3> <i class="fas fa-paw"></i> About Us </h3>
-    <section>
-        <img src="images/cute_girl_cute_puppies.JPG" alt="Young girl playing with a chocolate lab" />
-        <div>
-            <p>
-                We are a family breeder located in central Indiana. Our home is situated on eight rolling acres
-                with
-                an acre pond. Needless to say, it’s hard to keep our dogs dry!
-            </p>
-            <p>
-                We fell in love with our first Lab in
-                1998 and began raising Chocolate AKC English Labradors in 2007. We strive to produce top
-                quality,
-                healthy, happy, well-socialized dogs.
-            </p>
-            <p>Labs are excellent family dogs with great personalities.
-                Always eager to please, whether in the field, show ring or living room, a Lab will steal your
-                heart!
-                We here at Lost River Ridge Labradors would love the opportunity to help you find the perfect
-                addition to your family.
-            </p>
-        </div>
-
-    </section>
-
-    <h3> <i class="fas fa-paw"></i> Our Puppies </h3>
-
-    <section>
-        <img src="images/cute_boy_cute_puppies.JPG" alt="Young boy playing with a chocolate lab" />
-        <div>
-            <p>
-                Our puppies are de-wormed, have a vet wellness check, including their first vaccination and are
-                micro-chipped before leaving for their forever homes at 8 weeks old. We require each puppy to be
-                registered with American Kennel Club (AKC) and their microchip registered with AKC Reunite. This
-                cost is
-                included in the price of your puppy.
-            </p>
-
-            <p>
-                Both parents have had OFA Hips, Elbows and Eyes, and DNA testing that includes EIC, Cystinuria,
-                CNM,
-                DM, HNPK, prcd- PRA and D Locus (Dilute). Sweet Benelli belongs to us and the sire, Lakobie
-                Liberty
-                Creek Willie Nelson at Rustic Ridge- aka “Weed” is from Rustic Ridge Labradors. You can learn
-                more
-                about him at <a href="https://rusticridgelabs.com">Rustic Ridge Labradors</a>.
-            </p>
-        </div>
-
-    </section>
 </article>
 
 <section>
@@ -110,53 +81,3 @@ layout: home
         href="https://www.instagram.com/lostriverridge_labradors/">Instagram</a> and <a
         href="https://www.facebook.com/lostriverridgelabradors">Facebook</a>!</p>
 <p class="hidden-lg">Scroll to the left for more puppies!</p>
-<section id="pictures">
-    <img src="images/20200721_181821.jpg" alt="Picture of puppies" />
-    <!-- <img src="images/158442.jpeg" alt="Picture of puppies" /> -->
-    <!-- <video controls>
-        <source src="./images/20200721_181925.mov" type="video/mp4" />
-    </video> -->
-    <img src="images/144227.jpeg" alt="Picture of puppies" />
-    <img src="images/puppies15.jpg" alt="Picture of puppies" />
-    <img src="images/IMG_20191018_203001.jpg" alt="Picture of puppies" />
-    <!-- <img src="images/imagejpeg_0-1.jpg" alt="Picture of puppies" /> -->
-    <img src="images/FB_IMG_1578790648427.jpg" alt="Picture of puppies" />
-    <!-- <video controls>
-        <source src="./images/20200721_182158.mov" type="video/mp4" />
-    </video> -->
-    <img src="images/puppies3.JPG" alt="Picture of adorable puppies" />
-    <img src="images/puppies10.JPG" alt="Picture of adorable puppies" />
-    <img src="images/puppies1.JPG" alt="Picture of adorable puppies" />
-    <img src="images/puppies16.jpg" alt="Picture of Nash" />
-    <!-- <img src="images/puppies9.JPG" alt="Picture of adorable puppies" /> -->
-    <!-- <video controls>
-        <source src="./images/video3gpp_0.mov" type="video/mp4" />
-    </video> -->
-    <img src="images/puppies13.jpg" alt="Picture of Hank" />
-    <img src="images/puppies14.jpg" alt="Picture of Nash" />
-    <img src="images/newpic1.jpg" alt="Picture of Puppes" />
-    <img src="images/newpic2.jpg" alt="Picture of Puppes" />
-    <img src="images/newpic3.jpg" alt="Picture of Puppes" />
-    <img src="images/newpic4.jpg" alt="Picture of Puppes" />
-    <img src="images/newpic5.jpg" alt="Picture of Puppes" />
-    <img src="images/newpic6.jpg" alt="Picture of Puppes" />
-    <img src="images/newpic7.jpg" alt="Picture of Puppes" />
-    <img src="images/newpic8.jpg" alt="Picture of Puppes" />
-    <img src="images/newpic9.jpg" alt="Picture of Puppes" />
-    <img src="images/newpic10.jpg" alt="Picture of Puppes" />
-    <img src="images/newpic11.jpg" alt="Picture of Puppes" />
-</section>
-
-
-<section id="puppy-cam">
-    <h3> <i class="fas fa-paw"></i> Puppy Cam </h3>
-
-    <p>Enjoy a live feed of our newborn labs!</p>
-    <h4>Benelli and Weed </h4>
-    <iframe type="text/html" frameborder="0" src="//video.nest.com/embedded/live/KZNybTeBnx?autoplay=1"
-        allowfullscreen></iframe>
-    <h4>Mavey and Dre </h4>
-
-    <iframe type="text/html" frameborder="0" src="//video.nest.com/embedded/live/xdPyPSY4Nk?autoplay=1"
-        allowfullscreen></iframe>
-</section>
