@@ -10,11 +10,9 @@ Meet the dams!
 <img src="./images/mavey_2.jpg" height="300" alt="Mavey headshot" />
 ![46569.jpeg](/uploads/46569.jpeg)
 
-#### Skye (upcoming)
+#### Skye (upcoming: A Benelli and Weed Pup)
 ![46589.jpeg](/uploads/46589.jpeg)
 ![46591.jpeg](/uploads/46591.jpeg)
-
-A Benelli and Weed pup.
 
 
 #### Benelli (retired)
