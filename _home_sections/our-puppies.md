@@ -1,6 +1,6 @@
 ---
-    title: Our Puppies
-    url: our-puppies
+title: Our Puppies
+url: our-puppies
 ---
 
    <img src="images/cute_boy_cute_puppies.JPG" alt="Young boy playing with a chocolate lab" />
