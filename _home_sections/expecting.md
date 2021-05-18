@@ -1,7 +1,7 @@
 ---
-    title: Coming 2021
-    slug: expecting
+title: Coming 2021
 ---
+
 <section class="row">
     <img src="images/puppies1.JPG" alt="Wigglebutts coming soon!" class="img-banner" />
 

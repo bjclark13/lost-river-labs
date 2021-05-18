@@ -1,6 +1,5 @@
 ---
-    title: About Us
-    slug: about
+title: About Us
 ---
 
 <img src="images/cute_girl_cute_puppies.JPG" alt="Young girl playing with a chocolate lab" />

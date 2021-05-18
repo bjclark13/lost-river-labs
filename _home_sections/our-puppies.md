@@ -1,6 +1,5 @@
 ---
-    title: Our Puppies
-    slug: our-puppies
+title: Our Puppies
 ---
 
 ![Young boy playing with a chocolate lab](images/cute_boy_cute_puppies.JPG)
