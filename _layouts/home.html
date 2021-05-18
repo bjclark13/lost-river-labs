@@ -15,29 +15,41 @@
 
     <main>
         {% for post in site.home_sections %}
-            <article id="{{post.slug}}" >
-                <h3> <i class="fas fa-paw"></i> {{post.title}}</h3>
-                <section class="{{post.class}}">
-                    {{post.content}}
-                </section>
-            </article>
+        <article id="{{post.slug}}">
+            <h3> <i class="fas fa-paw"></i> {{post.title}}</h3>
+            <section class="{{post.class}}">
+                {{post.content}}
+            </section>
+        </article>
 
-            {{content}}
+        {{content}}
         {% endfor %}
+
+        <article id="pictures">
+            <h3> <i class="fas fa-paw"></i> Pictures </h3>
+
+            <section>
+
+                {% for picture in page.pictures %}
+                <img src="{{picture}}" alt="Picture of puppies" />
+                {% endfor %}
+            </section>
+        </article>
 
 
         <section id="puppy-cam">
             <h3> <i class="fas fa-paw"></i> Puppy Cam </h3>
-        
+
             <p>Enjoy a live feed of our newborn labs!</p>
             <h4>Benelli and Weed </h4>
             <iframe type="text/html" frameborder="0" src="//video.nest.com/embedded/live/KZNybTeBnx?autoplay=1"
                 allowfullscreen></iframe>
             <h4>Mavey and Dre </h4>
-        
+
             <iframe type="text/html" frameborder="0" src="//video.nest.com/embedded/live/xdPyPSY4Nk?autoplay=1"
                 allowfullscreen></iframe>
         </section>
+
     </main>
 
     {% include footer.html %}
