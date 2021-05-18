@@ -11,9 +11,10 @@ Meet the dams!
 ![46569.jpeg](/uploads/46569.jpeg)
 
 #### Skye (upcoming)
-A Benelli and Weed pup.
 ![46589.jpeg](/uploads/46589.jpeg)
 ![46591.jpeg](/uploads/46591.jpeg)
+A Benelli and Weed pup.
+
 
 #### Benelli (retired)
 <img src="./images/benelli_2.jpg" height="300" alt="Benelli headshot" />
