@@ -267,7 +267,7 @@ article section img {
     height: 300px;
     width: 300px;
 }
-article section {
+article section.row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -300,7 +300,7 @@ article > section img {
     margin: 0;
 }
 
-article > section img,
+article > section.row img,
 .circle {
     border-radius: 50%;
 }
@@ -477,7 +477,7 @@ footer img {
         height: 300px;
         width: auto;
     }
-    article section {
+    article section.row {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -ms-flex-direction: row;

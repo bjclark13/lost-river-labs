@@ -1,6 +1,7 @@
 ---
 title: Coming 2021
 position: 0
+class: row
 ---
 
 <section class="row">
