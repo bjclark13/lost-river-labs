@@ -305,7 +305,7 @@ article > section img,
     border-radius: 50%;
 }
 
-section#pictures {
+#pictures > section {
     max-width: 100vw;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -320,11 +320,12 @@ section#pictures {
     padding-right: 10px;
 }
 
-section#pictures > img,
-section#pictures > video {
+#pictures > section > img,
+#pictures > section  > video {
     height: 350px;
     margin: 5px;
     display: inline-block;
+    border-radius: 0;
 }
 
 .contact-ways {
@@ -491,7 +492,7 @@ footer img {
         display: block;
     }
 
-    section#pictures {
+    #pictures > section {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -500,13 +501,13 @@ footer img {
         padding: 0;
     }
 
-    section#pictures > img,
-    section#pictures > video {
+    #pictures > section > img,
+    #pictures > section > video {
         height: 300px;
     }
 
-    section#pictures > img:hover,
-    section#pictures > img:active {
+    #pictures > section > img:hover,
+    #pictures > section > img:active {
         -webkit-transform: scale(1.4);
         transform: scale(1.4);
     }

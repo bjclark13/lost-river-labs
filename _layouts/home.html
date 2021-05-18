@@ -15,7 +15,7 @@
 
     <main>
         {% for post in site.home_sections %}
-            <article id="{{post.url}}">
+            <article id="{{post.slug}}">
                 <h3> <i class="fas fa-paw"></i> {{post.title}}</h3>
                 <section>
                     {{post.content}}
@@ -25,13 +25,7 @@
             {{content}}
         {% endfor %}
 
-        <section id="pictures">
-            {% for picture in page.pictures %}
-                <img src="{{picture}}" alt="Picture of puppies" />
-            {% endfor %}
-        </section>
-        
-    
+
         <section id="puppy-cam">
             <h3> <i class="fas fa-paw"></i> Puppy Cam </h3>
         
