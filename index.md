@@ -1,6 +1,5 @@
 ---
 title: Home
-layout: home
 pictures:
 - images/20200721_181821.jpg
 - images/144227.jpeg
@@ -24,5 +23,6 @@ pictures:
 - images/newpic9.jpg
 - images/newpic10.jpg
 - images/newpic11.jpg
+layout: home
 ---
 
