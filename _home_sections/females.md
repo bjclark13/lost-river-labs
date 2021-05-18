@@ -8,6 +8,7 @@ Meet the dams!
 #### Mavey
 <img src="./images/mavey_1.jpg" height="300" alt="Mavey headshot" />
 <img src="./images/mavey_2.jpg" height="300" alt="Mavey headshot" />
+![46569.jpeg](/uploads/46569.jpeg)
 
 #### Skye (upcoming)
 A Benelli and Weed pup.
