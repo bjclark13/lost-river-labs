@@ -3,7 +3,7 @@ title: Interested
 layout: default
 ---
 
-<section>
+<section class="row">
     <img src="./images/puppies5.JPG" alt="One of the adorable puppies that are available">
 
     <div>
