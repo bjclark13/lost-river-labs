@@ -14,7 +14,7 @@
     {% include header-home.html %}
 
     <main>
-        {% for post in site.home_sections %}
+        {% for post in site.home_sections | | sort:"position"  %}
         <article id="{{post.slug}}">
             <h3> <i class="fas fa-paw"></i> {{post.title}}</h3>
             <section class="{{post.class}}">
