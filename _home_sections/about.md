@@ -1,5 +1,6 @@
 ---
 title: About Us
+position: 0
 ---
 
 <img src="images/cute_girl_cute_puppies.JPG" alt="Young girl playing with a chocolate lab" />

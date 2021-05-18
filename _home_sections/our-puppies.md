@@ -1,5 +1,6 @@
 ---
 title: Our Puppies
+position: 1
 ---
 
 ![Young boy playing with a chocolate lab](images/cute_boy_cute_puppies.JPG)
