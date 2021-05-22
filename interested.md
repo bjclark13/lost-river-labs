@@ -24,11 +24,11 @@ layout: default
             is dedicated to a lifelong future has proven for better opportunities of success. </p>
     </div>
 
+</section>
+
     <div class="cognito">
         <iframe src="https://services.cognitoforms.com/f/odhICsMEzUqS_DwN74Q9YA?id=2"
             style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes"
             seamless="seamless" height="3282" width="100%"></iframe>
         <script src="https://services.cognitoforms.com/scripts/embed.js"></script>
     </div>
-
-</section>
