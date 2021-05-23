@@ -251,7 +251,14 @@ main h4 {
     font-size: 1.8rem;
     color: #7d4141;
     font-weight: bolder;
+    margin-bottom: 0;
     text-transform: capitalize;
+}
+
+main h5 {
+    font-size: 1.6rem;
+    color: #7d4141;  
+    margin-top: 0;
 }
 
 nav p {
