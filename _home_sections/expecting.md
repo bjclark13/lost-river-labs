@@ -5,7 +5,9 @@ class: row
 ---
 
 <section class="row">
+<div>
     <img src="images/puppies1.JPG" alt="Wigglebutts coming soon!" class="img-banner" />
+    </div>
 
     <div>
         <p>
