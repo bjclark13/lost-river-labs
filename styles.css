@@ -271,8 +271,7 @@ nav p {
 }
 
 article section img {
-    height: 300px;
-    width: 300px;
+    height: 350px;
 }
 article section.row {
     display: -webkit-box;
