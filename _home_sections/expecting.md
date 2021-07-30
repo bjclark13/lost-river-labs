@@ -15,7 +15,7 @@ class: row
 
         <p>
             If you’re interested in an incredible companion for the entire family to share many years of
-            love, companionship and loyalty, please complete our <a href="/interested.html">Puppy application </a> and we will contact you with more information.
+            love, companionship and loyalty, please complete our <a href="/interested.html">Puppy Interest Form </a> and we will contact you with more information.
         </p>
     </div>
 
