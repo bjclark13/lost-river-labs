@@ -11,7 +11,7 @@ class: row
 
     <div>
         <p>
-            We are expecting another litter due to arrive this November! </p>
+            We are expecting another litter due to arrive in Summer 2022! </p>
 
         <p>
             If you’re interested in an incredible companion for the entire family to share many years of
