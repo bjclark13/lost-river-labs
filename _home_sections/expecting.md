@@ -1,5 +1,5 @@
 ---
-title: Coming 2022
+title: Coming 2023
 position: 0
 class: row
 ---
@@ -11,7 +11,7 @@ class: row
 
     <div>
         <p>
-            We are expecting another litter due to arrive in Summer 2022! </p>
+            We are expecting another litter due to arrive in Summer 2023! </p>
 
         <p>
             If you’re interested in an incredible companion for the entire family to share many years of
