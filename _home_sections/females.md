@@ -5,10 +5,18 @@ position: 3
 
 Meet the dams!
 
-#### Lost River Ridge Sweet Skye High
+#### Lost River Ridge Sweet Ellie
+##### (Ellie)
+![ellie1.jpeg](/uploads/ellie1.jpeg)
+![ellie2.jpeg](/uploads/ellie2.jpeg)
+![ellie3.jpeg](/uploads/ellie3.jpeg)
+
+A Mavis and Dre pup.
+
 ##### (Skye)
-![46589.jpeg](/uploads/46589.jpeg)
-![46591.jpeg](/uploads/46591.jpeg)
+![sky1.png](/uploads/sky1.png)
+![sky2.jpeg](/uploads/sky2.jpeg)
+![sky3.jpeg](/uploads/sky3.jpeg)
 
 A Benelli and Weed pup.
 
