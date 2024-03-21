@@ -5,7 +5,7 @@ position: 3
 
 Meet the dams!
 
-#### Sweet Ellie Mae
+#### Lost River Ridge Sweet Ellie Mae
 ##### (Ellie)
 ![ellie1.jpeg](/uploads/ellie1.jpeg)
 ![ellie2.jpeg](/uploads/ellie2.jpeg)
@@ -13,7 +13,8 @@ Meet the dams!
 
 A Mavis and Dre pup.
 
-##### (Skye)
+#### Lost River Ridge Sky High
+##### (Sky)
 ![sky1.png](/uploads/sky1.png)
 ![sky2.jpeg](/uploads/sky2.jpeg)
 ![ellie3.jpeg](/uploads/ellie3.jpeg)
