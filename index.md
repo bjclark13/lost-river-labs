@@ -14,7 +14,6 @@ pictures:
 - images/newpic10.jpg
 - images/newpic11.jpg
 - "/uploads/thumbnail_20240310_142958.jpg"
-- images/puppies14.jpg
 - "/uploads/thumbnail_20240310_143023.jpg"
 - images/puppies10.JPG
 - "/uploads/thumbnail_20240310_143152.jpg"
