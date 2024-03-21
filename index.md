@@ -3,10 +3,6 @@ title: Home
 pictures:
 - "/uploads/thumbnail_20240310_143108.jpg"
 - "/uploads/96155.jpeg"
-- images/puppies16.jpg
-- images/puppies13.jpg
-- images/newpic1.jpg
-- images/newpic2.jpg
 - images/newpic3.jpg
 - images/newpic4.jpg
 - "/uploads/thumbnail_96121.jpg"
