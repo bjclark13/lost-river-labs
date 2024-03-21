@@ -18,6 +18,7 @@ A Mavis and Dre pup.
 ![sky1.png](/uploads/sky1.png)
 ![sky2.jpeg](/uploads/sky2.jpeg)
 ![ellie3.jpeg](/uploads/ellie3.jpeg)
+![20240318_191610.jpg](/uploads/20240318_191610.jpg)![20240318_191633.jpg](/uploads/20240318_191633.jpg)
 
 A Benelli and Weed pup.
 
