@@ -11,10 +11,10 @@ Meet the dams!
 ![ellie2.jpeg](/uploads/ellie2.jpeg)
 ![sky3.jpeg](/uploads/sky3.jpeg)
 
-A Mavis and Dre pup.
+A Mavis pup.
 
 #### Lost River Ridge Sky High
-##### (Sky)
+##### (Skye)
 ![sky1.png](/uploads/sky1.png)
 ![sky2.jpeg](/uploads/sky2.jpeg)
 ![ellie3.jpeg](/uploads/ellie3.jpeg)
