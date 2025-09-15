@@ -1,9 +1,7 @@
 ---
-title: Females
+title: Meet our Girls
 position: 3
 ---
-
-Meet the dams!
 
 #### Lost River Ridge Sweet Ellie Mae
 ##### (Ellie)
